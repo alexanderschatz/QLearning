@@ -1,0 +1,27 @@
+author: A.Schatz, alexander.schatz@th-wildau.de
+
+This project was written in python 3.
+To start the program either do:
+    $ python3 main.py 
+    or
+    $ python3 whole.py 
+
+main.py is contains the main function of the program. 
+The classfiles used by main.py are 
+ - map.py
+ - player.py 
+ - qlearn.py 
+Additionally globalV.py conains global variables used by all classes.
+
+whole.py is the same program but written in a single file.
+
+Upon execution of the program a window opens, which displays the game environment (canvas).
+Information about the game is written into the console.
+
+You will be asked if you want to observe the AI while exploring.
+If your answer is no ('n') you can close the canvas as it won't be used.
+If your answer is yes ('y') you can observe the AI. Note that ths might take a while until finished.
+
+After the game is finishe you will be asked if you want to view the learning curve.
+If your answer is no ('n') the program will end.
+If your answer is yes ('y') a pyplot will open. To terminate the program you'll have to close the pyplot and the canvas.
